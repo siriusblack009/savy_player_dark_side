@@ -1,0 +1,26 @@
+{
+  "name": "savy_player_2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "fuser -k 5000/tcp & nodemon server.js",
+		"start": "node server.js",
+		"logs": "heroku logs -t --app savy-player"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siriusblack009/savy_player_dark_side.git"
+  },
+  "author": "yash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siriusblack009/savy_player_dark_side/issues"
+  },
+  "homepage": "https://github.com/siriusblack009/savy_player_dark_side#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku": "^7.47.6",
+    "socket.io": "^3.0.4"
+  }
+}
